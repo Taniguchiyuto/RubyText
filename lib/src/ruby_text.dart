@@ -94,7 +94,7 @@ class RubySpanWidget extends HookWidget {
     }
 
     texts.add(
-      Text(
+      SelectableText(
         data.text,
         textAlign: TextAlign.center,
         style: effectiveTextStyle,
